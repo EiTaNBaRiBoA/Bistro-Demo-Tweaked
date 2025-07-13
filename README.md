@@ -47,5 +47,5 @@ You can turn music on or off in editor.
 ## Credits
 Ported from [Amazon Lumberyard Bistro](https://developer.nvidia.com/orca/amazon-lumberyard-bistro).  
 Original porting work done by [Logan Preshaw](https://github.com/WickedInsignia), original port can be found [here](https://github.com/godotengine/godot/issues/74965).  
-Uses Creative Commons sounds, attributions are [here](https://github.com/Jamsers/Bistro-Demo-Tweaked/blob/main/Audio/ATTRIBUTION).  
-Music by [Aaron James Gutib](https://www.youtube.com/@Anuron01/), ["Bright Bistro"](https://www.youtube.com/watch?v=W8CFKvLtBaI) and ["Blissful Bistro"](https://www.youtube.com/watch?v=N8L46km_EOg).
+Music by [Aaron James Gutib](https://www.youtube.com/@Anuron01/), ["Bright Bistro"](https://www.youtube.com/watch?v=W8CFKvLtBaI) and ["Blissful Bistro"](https://www.youtube.com/watch?v=N8L46km_EOg).  
+Uses Creative Commons sounds, attributions are [here](https://github.com/Jamsers/Bistro-Demo-Tweaked/blob/main/Audio/ATTRIBUTION).

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dola5mngnak0v"
+path="res://.godot/imported/Scrape_Vehicle.wav-94ec1abbd1a0f079a58e643f5f6de042.sample"
+
+[deps]
+
+source_file="res://Audio/Prop Sounds/Vehicle/Scrape_Vehicle.wav"
+dest_files=["res://.godot/imported/Scrape_Vehicle.wav-94ec1abbd1a0f079a58e643f5f6de042.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=true
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=2
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

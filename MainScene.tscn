@@ -1,4 +1,4 @@
-[gd_scene load_steps=278 format=3 uid="uid://dcgtpj2gjbxgl"]
+[gd_scene load_steps=286 format=3 uid="uid://dcgtpj2gjbxgl"]
 
 [ext_resource type="PackedScene" uid="uid://x65cq1udsqsf" path="res://Scenes/Section01/S1B1.tscn" id="1_17a2u"]
 [ext_resource type="PackedScene" uid="uid://eo1atg6pdllw" path="res://Scenes/Section01/S1B2.tscn" id="2_8mtnr"]
@@ -73,8 +73,16 @@
 [ext_resource type="Material" uid="uid://d0cd8fe6hpv6t" path="res://Materials/windowlight.tres" id="63_8uykn"]
 [ext_resource type="ArrayMesh" uid="uid://npyvb0up4qr6" path="res://Meshes/Bent_Quad.obj" id="63_l4mn6"]
 [ext_resource type="PackedScene" uid="uid://cb5wljw5j3qlt" path="res://Scenes/PropAudioPlayer.tscn" id="70_yq80p"]
+[ext_resource type="AudioStream" uid="uid://bgrakbqfu283w" path="res://Audio/Prop Sounds/Metal_Heavy/Bump1_Metal_Heavy.wav" id="71_igvuv"]
+[ext_resource type="AudioStream" uid="uid://bsxhgwoawadn1" path="res://Audio/Prop Sounds/Metal_Heavy/Bump2_Metal_Heavy.wav" id="72_amhny"]
+[ext_resource type="AudioStream" uid="uid://c3o1b3rff6b7l" path="res://Audio/Prop Sounds/Metal_Heavy/Bump3_Metal_Heavy.wav" id="73_xftyf"]
+[ext_resource type="AudioStream" uid="uid://bo5rkx11uyl6k" path="res://Audio/Prop Sounds/Metal_Heavy/Scrape_Metal_Heavy.wav" id="74_uqm4d"]
 [ext_resource type="Script" uid="uid://d3nrpxdh8sptx" path="res://Scripts/FoliageArea.gd" id="75_mt554"]
+[ext_resource type="AudioStream" uid="uid://duv3fyijvp05s" path="res://Audio/Prop Sounds/Plastic/Bump1_Plastic.wav" id="75_rsumg"]
 [ext_resource type="PackedScene" uid="uid://dph2jwqw0jaw" path="res://Scenes/FoliageSound.tscn" id="76_oe8ap"]
+[ext_resource type="AudioStream" uid="uid://de4bplcvembxu" path="res://Audio/Prop Sounds/Plastic/Bump2_Plastic.wav" id="76_sivpx"]
+[ext_resource type="AudioStream" uid="uid://dflhw8w57uj4s" path="res://Audio/Prop Sounds/Plastic/Bump3_Plastic.wav" id="77_i445x"]
+[ext_resource type="AudioStream" uid="uid://2yjx7l04o82o" path="res://Audio/Prop Sounds/Plastic/Scrape_Plastic.wav" id="78_d7gnp"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_u4h6w"]
 lightmap_size_hint = Vector2i(644, 462)
@@ -2121,6 +2129,8 @@ surface_material_override/0 = SubResource("StandardMaterial3D_n0oho")
 shape = SubResource("BoxShape3D_gxu67")
 
 [node name="PropAudioPlayer" parent="Patches/MaterialCubeSpecular" instance=ExtResource("70_yq80p")]
+prop_sounds = Array[AudioStreamWAV]([ExtResource("71_igvuv"), ExtResource("72_amhny"), ExtResource("73_xftyf")])
+scrape_sound = ExtResource("74_uqm4d")
 
 [node name="MaterialCubeAlbedo" type="RigidBody3D" parent="Patches"]
 physics_interpolation_mode = 1
@@ -2138,6 +2148,8 @@ surface_material_override/0 = SubResource("StandardMaterial3D_72mn7")
 shape = SubResource("BoxShape3D_ra78n")
 
 [node name="PropAudioPlayer" parent="Patches/MaterialCubeAlbedo" instance=ExtResource("70_yq80p")]
+prop_sounds = Array[AudioStreamWAV]([ExtResource("75_rsumg"), ExtResource("76_sivpx"), ExtResource("77_i445x")])
+scrape_sound = ExtResource("78_d7gnp")
 
 [node name="Foliage Areas" type="Area3D" parent="." node_paths=PackedStringArray("placeholder")]
 monitorable = false
