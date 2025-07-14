@@ -18,10 +18,13 @@ func _ready():
 		collider.reparent(self, true)
 	
 	body_entered.connect(_on_body_entered)
-	body_exited.connect(_on_body_exited)
 
 func _physics_process(delta):
+	var overlapping_bodies = get_overlapping_bodies()
 	for pair in collider_audio_pair:
+		if overlapping_bodies.has(pair["collider"]) == false:
+			_on_body_exited(pair["collider"])
+			continue
 		pair["audio"].global_position = pair["collider"].global_position
 		var atten_speed = ATTENUATION_ADJUST_SPEED * delta
 		var atten_target = set_atten(pair["collider"], pair["audio"], true)
