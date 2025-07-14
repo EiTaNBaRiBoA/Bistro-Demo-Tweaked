@@ -30,7 +30,6 @@ To get past the "Apple cannot check it for malicious software" warning on Mac, f
 |  |  |  |
 | **Switch third person/first person** | V | BACK |
 | **Zoom/focus** (Toggle) | Right Click | Left Trigger |
-| **Pick up/throw physics object** | Left Click | Right Trigger |
 
 ## *.res Files Reimported
 When opening the project for the first time, you may notice hundreds of *.res files get modified in your source control. This is a quirk of the Godot importer and these changes can be safely discarded once project has already been opened once.
