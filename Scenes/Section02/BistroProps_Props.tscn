@@ -28,7 +28,7 @@
 [ext_resource type="AudioStream" uid="uid://qi7xfi47dn6t" path="res://Audio/Prop Sounds/Wood/Scrape_Wood.wav" id="13_dt5li"]
 [ext_resource type="Material" uid="uid://b6i53kkrlpl3q" path="res://Materials/Wood/Paris_Table_Terrace.tres" id="13_lmxab"]
 [ext_resource type="ArrayMesh" uid="uid://dpcdlb0p3pd6g" path="res://Meshes/Section02/BistroProps_Props/BistroProps_Props_Mesh_661.res" id="13_w2fqo"]
-[ext_resource type="AudioStream" uid="uid://dola5mngnak0v" path="res://Audio/Prop Sounds/Vehicle/Scrape_Vehicle.wav" id="13_x75at"]
+[ext_resource type="AudioStream" uid="uid://bo5rkx11uyl6k" path="res://Audio/Prop Sounds/Metal_Heavy/Scrape_Metal_Heavy.wav" id="13_x75at"]
 [ext_resource type="ArrayMesh" uid="uid://vwdsq86vd8mk" path="res://Meshes/Section02/BistroProps_Props/BistroProps_Props_Mesh_662.res" id="14_m7lmn"]
 [ext_resource type="ArrayMesh" uid="uid://w68uuqyhtfdh" path="res://Meshes/Section02/BistroProps_Props/BistroProps_Props_Mesh_663.res" id="15_mqahm"]
 [ext_resource type="ArrayMesh" uid="uid://05xedgtfo082" path="res://Meshes/Section02/BistroProps_Props/BistroProps_Props_Mesh_664.res" id="16_dnhw4"]

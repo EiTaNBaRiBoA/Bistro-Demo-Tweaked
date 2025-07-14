@@ -421,6 +421,8 @@ surface_material_override/0 = ExtResource("2_56wir")
 shape = SubResource("ConvexPolygonShape3D_2fm23")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_StreetLight_01a___8__6277/Bistro_Research_Exterior_Paris_StreetLight_01a___8__6277_005" instance=ExtResource("8_hfvwo")]
+prop_sounds = Array[AudioStreamWAV]([ExtResource("9_xpwfl"), ExtResource("10_40on0"), ExtResource("11_05rgs")])
+scrape_sound = ExtResource("12_md55g")
 
 [node name="Bistro_Research_Exterior_Paris_StreetLight_01a___8__6277_009" type="ConeTwistJoint3D" parent="Bistro_Research_Exterior_Paris_StreetLight_01a___8__6277"]
 transform = Transform3D(-0.905902, 0, 0.423488, 0, 1, 0, -0.423488, 0, -0.905902, -0.201047, 1.01367, 0.429787)
@@ -458,6 +460,8 @@ surface_material_override/0 = ExtResource("2_56wir")
 shape = SubResource("ConvexPolygonShape3D_2mtbg")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_StreetLight_01a___8__6277/Bistro_Research_Exterior_Paris_StreetLight_01a___8__6277_007" instance=ExtResource("8_hfvwo")]
+prop_sounds = Array[AudioStreamWAV]([ExtResource("9_xpwfl"), ExtResource("10_40on0"), ExtResource("11_05rgs")])
+scrape_sound = ExtResource("12_md55g")
 
 [node name="Bistro_Research_Exterior_Paris_StreetLight_01a___9__6279" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.92756, 2.43309, -58.9232)
