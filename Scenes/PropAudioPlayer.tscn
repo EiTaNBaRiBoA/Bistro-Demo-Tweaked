@@ -5,6 +5,7 @@
 
 [node name="PropAudioPlayer" type="Node3D"]
 script = ExtResource("1_hl2k7")
+impulse_force_ceiling_for_prop_impact_play = 9.22337e+18
 helper_script = ExtResource("2_q782f")
 
 [node name="Prop" type="AudioStreamPlayer3D" parent="."]

@@ -144,5 +144,6 @@ shape = SubResource("ConvexPolygonShape3D_6tymr")
 shape = SubResource("ConvexPolygonShape3D_si30k")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_TrashCanOpen_01A1_6530" instance=ExtResource("3_ooa7u")]
+impulse_force_ceiling_for_prop_impact_play = 4500.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("4_rtaj1"), ExtResource("5_ldp0x"), ExtResource("6_v287p")])
 scrape_sound = ExtResource("7_8402h")

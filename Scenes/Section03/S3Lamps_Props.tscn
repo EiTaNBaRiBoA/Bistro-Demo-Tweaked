@@ -78,6 +78,7 @@ surface_material_override/0 = ExtResource("2_3jafo")
 shape = SubResource("ConvexPolygonShape3D_jm2cf")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_StreetLight_01a___3__6267/Bistro_Research_Exterior_Paris_StreetLight_01a___3__6267_004" instance=ExtResource("8_d3awq")]
+impulse_force_ceiling_for_prop_impact_play = 5000.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("9_rdplo"), ExtResource("10_0t0h5"), ExtResource("11_ms1cb")])
 scrape_sound = ExtResource("12_mlhv0")
 
@@ -117,5 +118,6 @@ surface_material_override/0 = ExtResource("2_3jafo")
 shape = SubResource("ConvexPolygonShape3D_6fv1g")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_StreetLight_01a___3__6267/Bistro_Research_Exterior_Paris_StreetLight_01a___3__6267_005" instance=ExtResource("8_d3awq")]
+impulse_force_ceiling_for_prop_impact_play = 5000.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("9_rdplo"), ExtResource("10_0t0h5"), ExtResource("11_ms1cb")])
 scrape_sound = ExtResource("12_mlhv0")

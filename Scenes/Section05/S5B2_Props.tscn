@@ -66,6 +66,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.000732422, 0.233151, 0.002
 shape = SubResource("ConvexPolygonShape3D_1s7i8")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_ShopSign_01B2_6159_3" instance=ExtResource("6_ebsm6")]
+impulse_force_ceiling_for_prop_impact_play = 2000.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("7_d15sq"), ExtResource("8_ly320"), ExtResource("9_f6rtd")])
 scrape_sound = ExtResource("10_hop0i")
 
@@ -99,5 +100,6 @@ skeleton = NodePath("")
 surface_material_override/0 = ExtResource("3_k7dxa")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_ShopSign_01B2_6159_003" instance=ExtResource("6_ebsm6")]
+impulse_force_ceiling_for_prop_impact_play = 2000.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("7_d15sq"), ExtResource("8_ly320"), ExtResource("9_f6rtd")])
 scrape_sound = ExtResource("10_hop0i")

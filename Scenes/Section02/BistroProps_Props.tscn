@@ -1,4 +1,4 @@
-[gd_scene load_steps=1211 format=3 uid="uid://7pvp17b3ediw"]
+[gd_scene load_steps=1208 format=3 uid="uid://7pvp17b3ediw"]
 
 [ext_resource type="ArrayMesh" uid="uid://bmeug5iwtycvp" path="res://Meshes/Section02/BistroProps_Props/BistroProps_Props_Mesh_646.res" id="1_xj4hw"]
 [ext_resource type="Material" uid="uid://xicenicxivp1" path="res://Materials/Miscellaneous/Vespa_Headlight.tres" id="2_mj2hd"]
@@ -15,13 +15,10 @@
 [ext_resource type="ArrayMesh" uid="uid://b2jrhq05l6tau" path="res://Meshes/Section02/BistroProps_Props/BistroProps_Props_Mesh_658.res" id="9_qu4qo"]
 [ext_resource type="Material" uid="uid://ubcyckfuisi6" path="res://Materials/Miscellaneous/Paris_LiquorBottle_01_Caps.tres" id="9_wxw4h"]
 [ext_resource type="Material" uid="uid://dn141k7dgev6e" path="res://Materials/Miscellaneous/Paris_LiquorBottle_01_Labels.tres" id="10_53v7k"]
-[ext_resource type="AudioStream" uid="uid://wlfxh2fk3uo4" path="res://Godot-Human-For-Scale/Assets/Audio/Bump1.wav" id="10_sjthe"]
 [ext_resource type="AudioStream" uid="uid://bgrakbqfu283w" path="res://Audio/Prop Sounds/Metal_Heavy/Bump1_Metal_Heavy.wav" id="10_x75at"]
 [ext_resource type="ArrayMesh" uid="uid://c6gfpl7n13qp0" path="res://Meshes/Section02/BistroProps_Props/BistroProps_Props_Mesh_659.res" id="11_3xh0d"]
-[ext_resource type="AudioStream" uid="uid://d3akgfcnosypu" path="res://Godot-Human-For-Scale/Assets/Audio/Bump2.wav" id="11_5kyys"]
 [ext_resource type="Material" uid="uid://d2w288okcmuqi" path="res://Materials/Miscellaneous/MenuSign_01.tres" id="11_23e8p"]
 [ext_resource type="AudioStream" uid="uid://bsxhgwoawadn1" path="res://Audio/Prop Sounds/Metal_Heavy/Bump2_Metal_Heavy.wav" id="11_kf2mw"]
-[ext_resource type="AudioStream" uid="uid://b64ceruixmwxb" path="res://Godot-Human-For-Scale/Assets/Audio/Bump3.wav" id="12_8iosx"]
 [ext_resource type="AudioStream" uid="uid://c3o1b3rff6b7l" path="res://Audio/Prop Sounds/Metal_Heavy/Bump3_Metal_Heavy.wav" id="12_f3grp"]
 [ext_resource type="ArrayMesh" uid="uid://rus1af6ctejo" path="res://Meshes/Section02/BistroProps_Props/BistroProps_Props_Mesh_660.res" id="12_mjfs3"]
 [ext_resource type="Material" uid="uid://cxpd2wlfrdcej" path="res://Materials/Miscellaneous/NapkinHolder.tres" id="12_vhgo0"]
@@ -3509,7 +3506,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.39098e-05, -0.00039202, -0.
 shape = SubResource("ConvexPolygonShape3D_y6y36")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior__lod0_Vespa_3937" instance=ExtResource("9_csk3v")]
-impulse_force_ceiling_for_prop_impact_play = 12000.0
+impulse_force_ceiling_for_prop_impact_play = 40000.0
 attenuation_percent_threshold_to_play = 0.4
 prop_sounds = Array[AudioStreamWAV]([ExtResource("10_x75at"), ExtResource("11_kf2mw"), ExtResource("12_f3grp")])
 scrape_sound = ExtResource("13_x75at")
@@ -3531,6 +3528,7 @@ surface_material_override/0 = ExtResource("6_y51bc")
 shape = SubResource("ConvexPolygonShape3D_nabsu")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Ashtray_01_mesh_4074" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 200.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("16_yed2r"), ExtResource("17_o67nh"), ExtResource("18_l44l0")])
 scrape_sound = ExtResource("19_hemg2")
 
@@ -3551,6 +3549,7 @@ surface_material_override/0 = ExtResource("6_y51bc")
 shape = SubResource("ConvexPolygonShape3D_aw75v")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Ashtray_01_mesh__4076" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 200.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("16_yed2r"), ExtResource("17_o67nh"), ExtResource("18_l44l0")])
 scrape_sound = ExtResource("19_hemg2")
 
@@ -3571,6 +3570,7 @@ surface_material_override/0 = ExtResource("6_y51bc")
 shape = SubResource("ConvexPolygonShape3D_23cmr")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Ashtray_01_mesh___10__4078" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 200.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("16_yed2r"), ExtResource("17_o67nh"), ExtResource("18_l44l0")])
 scrape_sound = ExtResource("19_hemg2")
 
@@ -3591,6 +3591,7 @@ surface_material_override/0 = ExtResource("6_y51bc")
 shape = SubResource("ConvexPolygonShape3D_kd0tq")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Ashtray_01_mesh___2__4080" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 200.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("16_yed2r"), ExtResource("17_o67nh"), ExtResource("18_l44l0")])
 scrape_sound = ExtResource("19_hemg2")
 
@@ -3611,6 +3612,7 @@ surface_material_override/0 = ExtResource("6_y51bc")
 shape = SubResource("ConvexPolygonShape3D_p5jhc")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Ashtray_01_mesh___3__4082" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 200.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("16_yed2r"), ExtResource("17_o67nh"), ExtResource("18_l44l0")])
 scrape_sound = ExtResource("19_hemg2")
 
@@ -3631,6 +3633,7 @@ surface_material_override/0 = ExtResource("6_y51bc")
 shape = SubResource("ConvexPolygonShape3D_fyh6u")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Ashtray_01_mesh___4__4084" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 200.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("16_yed2r"), ExtResource("17_o67nh"), ExtResource("18_l44l0")])
 scrape_sound = ExtResource("19_hemg2")
 
@@ -3651,6 +3654,7 @@ surface_material_override/0 = ExtResource("6_y51bc")
 shape = SubResource("ConvexPolygonShape3D_a46po")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Ashtray_01_mesh___5__4086" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 200.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("16_yed2r"), ExtResource("17_o67nh"), ExtResource("18_l44l0")])
 scrape_sound = ExtResource("19_hemg2")
 
@@ -3671,6 +3675,7 @@ surface_material_override/0 = ExtResource("6_y51bc")
 shape = SubResource("ConvexPolygonShape3D_vsghu")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Ashtray_01_mesh___6__4088" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 200.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("16_yed2r"), ExtResource("17_o67nh"), ExtResource("18_l44l0")])
 scrape_sound = ExtResource("19_hemg2")
 
@@ -3691,6 +3696,7 @@ surface_material_override/0 = ExtResource("6_y51bc")
 shape = SubResource("ConvexPolygonShape3D_omqf2")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Ashtray_01_mesh___7__4090" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 200.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("16_yed2r"), ExtResource("17_o67nh"), ExtResource("18_l44l0")])
 scrape_sound = ExtResource("19_hemg2")
 
@@ -3711,6 +3717,7 @@ surface_material_override/0 = ExtResource("6_y51bc")
 shape = SubResource("ConvexPolygonShape3D_3y1jy")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Ashtray_01_mesh___8__4092" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 200.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("16_yed2r"), ExtResource("17_o67nh"), ExtResource("18_l44l0")])
 scrape_sound = ExtResource("19_hemg2")
 
@@ -3731,6 +3738,7 @@ surface_material_override/0 = ExtResource("6_y51bc")
 shape = SubResource("ConvexPolygonShape3D_23xf7")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Ashtray_01_mesh___9__4094" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 200.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("16_yed2r"), ExtResource("17_o67nh"), ExtResource("18_l44l0")])
 scrape_sound = ExtResource("19_hemg2")
 
@@ -3841,6 +3849,7 @@ shape = SubResource("ConvexPolygonShape3D_ymc0a")
 shape = SubResource("ConvexPolygonShape3D_y5fx1")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Chair_01_Mesh_01_5908" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 2000.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
@@ -3951,6 +3960,7 @@ shape = SubResource("ConvexPolygonShape3D_xc35w")
 shape = SubResource("ConvexPolygonShape3D_p1mcr")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Chair_01_Mesh_01__5910" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 2000.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
@@ -4064,6 +4074,7 @@ shape = SubResource("ConvexPolygonShape3D_q3ikh")
 shape = SubResource("ConvexPolygonShape3D_8bymd")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Chair_01_Mesh_01___10__5912" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 2000.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
@@ -4174,6 +4185,7 @@ shape = SubResource("ConvexPolygonShape3D_ompoi")
 shape = SubResource("ConvexPolygonShape3D_6k86y")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Chair_01_Mesh_01___2__5914" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 2000.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
@@ -4281,6 +4293,7 @@ shape = SubResource("ConvexPolygonShape3D_8sbl7")
 shape = SubResource("ConvexPolygonShape3D_y666u")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Chair_01_Mesh_01___3__5916" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 2000.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
@@ -4394,6 +4407,7 @@ shape = SubResource("ConvexPolygonShape3D_2vo28")
 shape = SubResource("ConvexPolygonShape3D_etamn")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Chair_01_Mesh_01___4__5918" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 2000.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
@@ -4507,6 +4521,7 @@ shape = SubResource("ConvexPolygonShape3D_h0kv4")
 shape = SubResource("ConvexPolygonShape3D_it6af")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Chair_01_Mesh_01___5__5920" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 2000.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
@@ -4620,6 +4635,7 @@ shape = SubResource("ConvexPolygonShape3D_378tq")
 shape = SubResource("ConvexPolygonShape3D_0nkyt")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Chair_01_Mesh_01___6__5922" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 2000.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
@@ -4733,6 +4749,7 @@ shape = SubResource("ConvexPolygonShape3D_lpwb1")
 shape = SubResource("ConvexPolygonShape3D_lfktq")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Chair_01_Mesh_01___7__5924" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 2000.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
@@ -4846,6 +4863,7 @@ shape = SubResource("ConvexPolygonShape3D_tjefe")
 shape = SubResource("ConvexPolygonShape3D_uvj3c")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Chair_01_Mesh_01___8__5926" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 2000.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
@@ -4956,6 +4974,7 @@ shape = SubResource("ConvexPolygonShape3D_8r103")
 shape = SubResource("ConvexPolygonShape3D_g3g2p")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Chair_01_Mesh_01___9__5928" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 2000.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
@@ -5069,6 +5088,7 @@ shape = SubResource("ConvexPolygonShape3D_bnfrg")
 shape = SubResource("ConvexPolygonShape3D_5l2k1")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Chair_01_Mesh_02_5930" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 2000.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
@@ -5182,6 +5202,7 @@ shape = SubResource("ConvexPolygonShape3D_sckjp")
 shape = SubResource("ConvexPolygonShape3D_ri610")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Chair_01_Mesh_02__5932" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 2000.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
@@ -5295,6 +5316,7 @@ shape = SubResource("ConvexPolygonShape3D_so880")
 shape = SubResource("ConvexPolygonShape3D_0sdyp")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Chair_01_Mesh_02___10__5934" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 2000.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
@@ -5408,6 +5430,7 @@ shape = SubResource("ConvexPolygonShape3D_imc34")
 shape = SubResource("ConvexPolygonShape3D_b54n4")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Chair_01_Mesh_02___2__5936" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 2000.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
@@ -5521,6 +5544,7 @@ shape = SubResource("ConvexPolygonShape3D_oaibm")
 shape = SubResource("ConvexPolygonShape3D_5rve1")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Chair_01_Mesh_02___3__5938" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 2000.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
@@ -5634,6 +5658,7 @@ shape = SubResource("ConvexPolygonShape3D_tyc62")
 shape = SubResource("ConvexPolygonShape3D_ij28u")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Chair_01_Mesh_02___4__5940" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 2000.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
@@ -5747,6 +5772,7 @@ shape = SubResource("ConvexPolygonShape3D_63ra5")
 shape = SubResource("ConvexPolygonShape3D_8ppi2")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Chair_01_Mesh_02___5__5942" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 2000.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
@@ -5860,6 +5886,7 @@ shape = SubResource("ConvexPolygonShape3D_jmq8i")
 shape = SubResource("ConvexPolygonShape3D_55juw")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Chair_01_Mesh_02___6__5944" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 2000.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
@@ -5970,6 +5997,7 @@ shape = SubResource("ConvexPolygonShape3D_hbjro")
 shape = SubResource("ConvexPolygonShape3D_1q6j8")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Chair_01_Mesh_02___7__5946" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 2000.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
@@ -6080,6 +6108,7 @@ shape = SubResource("ConvexPolygonShape3D_enf3b")
 shape = SubResource("ConvexPolygonShape3D_xu4dd")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Chair_01_Mesh_02___8__5948" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 2000.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
@@ -6190,6 +6219,7 @@ shape = SubResource("ConvexPolygonShape3D_7js1g")
 shape = SubResource("ConvexPolygonShape3D_l44p8")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Chair_01_Mesh_02___9__5950" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 2000.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
@@ -6230,6 +6260,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000277042, 0.196802, 0.0026
 shape = SubResource("ConvexPolygonShape3D_1pxdw")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_LiquorBottle_01A_6081" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 300.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("16_yed2r"), ExtResource("17_o67nh"), ExtResource("18_l44l0")])
 scrape_sound = ExtResource("19_hemg2")
 
@@ -6270,6 +6301,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000263691, 0.196802, 0.0027
 shape = SubResource("ConvexPolygonShape3D_tcsvx")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_LiquorBottle_01A__6083" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 300.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("16_yed2r"), ExtResource("17_o67nh"), ExtResource("18_l44l0")])
 scrape_sound = ExtResource("19_hemg2")
 
@@ -6310,6 +6342,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00265694, 0.196802, -0.000
 shape = SubResource("ConvexPolygonShape3D_mdv6v")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_LiquorBottle_01A___10__6085" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 300.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("16_yed2r"), ExtResource("17_o67nh"), ExtResource("18_l44l0")])
 scrape_sound = ExtResource("19_hemg2")
 
@@ -6350,6 +6383,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000278473, 0.196801, 0.0026
 shape = SubResource("ConvexPolygonShape3D_nf0mj")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_LiquorBottle_01A___2__6087" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 300.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("16_yed2r"), ExtResource("17_o67nh"), ExtResource("18_l44l0")])
 scrape_sound = ExtResource("19_hemg2")
 
@@ -6390,6 +6424,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.000245571, 0.196801, -0.00
 shape = SubResource("ConvexPolygonShape3D_rc6j1")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_LiquorBottle_01A___3__6089" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 300.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("16_yed2r"), ExtResource("17_o67nh"), ExtResource("18_l44l0")])
 scrape_sound = ExtResource("19_hemg2")
 
@@ -6430,6 +6465,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00024271, 0.196801, -0.002
 shape = SubResource("ConvexPolygonShape3D_oqtuo")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_LiquorBottle_01A___4__6091" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 300.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("16_yed2r"), ExtResource("17_o67nh"), ExtResource("18_l44l0")])
 scrape_sound = ExtResource("19_hemg2")
 
@@ -6470,6 +6506,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.000239611, 0.196801, -0.00
 shape = SubResource("ConvexPolygonShape3D_q1lft")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_LiquorBottle_01A___5__6093" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 300.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("16_yed2r"), ExtResource("17_o67nh"), ExtResource("18_l44l0")])
 scrape_sound = ExtResource("19_hemg2")
 
@@ -6510,6 +6547,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.000241756, 0.196801, -0.00
 shape = SubResource("ConvexPolygonShape3D_mw0xk")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_LiquorBottle_01A___6__6095" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 300.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("16_yed2r"), ExtResource("17_o67nh"), ExtResource("18_l44l0")])
 scrape_sound = ExtResource("19_hemg2")
 
@@ -6550,6 +6588,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00268269, 0.196801, -1.811
 shape = SubResource("ConvexPolygonShape3D_qu5vv")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_LiquorBottle_01A___7__6097" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 300.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("16_yed2r"), ExtResource("17_o67nh"), ExtResource("18_l44l0")])
 scrape_sound = ExtResource("19_hemg2")
 
@@ -6590,6 +6629,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00267601, 0.196802, -2.074
 shape = SubResource("ConvexPolygonShape3D_44036")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_LiquorBottle_01A___8__6099" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 300.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("16_yed2r"), ExtResource("17_o67nh"), ExtResource("18_l44l0")])
 scrape_sound = ExtResource("19_hemg2")
 
@@ -6630,6 +6670,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00271034, 0.196802, -2.121
 shape = SubResource("ConvexPolygonShape3D_e00u3")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_LiquorBottle_01A___9__6101" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 300.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("16_yed2r"), ExtResource("17_o67nh"), ExtResource("18_l44l0")])
 scrape_sound = ExtResource("19_hemg2")
 
@@ -6698,6 +6739,7 @@ shape = SubResource("ConvexPolygonShape3D_ehjtv")
 shape = SubResource("ConvexPolygonShape3D_yk43t")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_MenuSign_01a1_6108" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 600.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
@@ -6742,6 +6784,7 @@ shape = SubResource("ConvexPolygonShape3D_dwn72")
 shape = SubResource("ConvexPolygonShape3D_unu4c")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_MenuSign_01a_6106" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 600.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
@@ -6762,6 +6805,7 @@ surface_material_override/0 = ExtResource("12_vhgo0")
 shape = SubResource("ConvexPolygonShape3D_3komk")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_NapkinHolder_01A_6114" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 600.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
@@ -6782,6 +6826,7 @@ surface_material_override/0 = ExtResource("12_vhgo0")
 shape = SubResource("ConvexPolygonShape3D_mhsc1")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_NapkinHolder_01A__6116" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 600.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
@@ -6802,6 +6847,7 @@ surface_material_override/0 = ExtResource("12_vhgo0")
 shape = SubResource("ConvexPolygonShape3D_jhskj")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_NapkinHolder_01A___10__6118" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 600.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
@@ -6822,6 +6868,7 @@ surface_material_override/0 = ExtResource("12_vhgo0")
 shape = SubResource("ConvexPolygonShape3D_ap351")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_NapkinHolder_01A___2__6120" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 600.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
@@ -6842,6 +6889,7 @@ surface_material_override/0 = ExtResource("12_vhgo0")
 shape = SubResource("ConvexPolygonShape3D_j5vqu")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_NapkinHolder_01A___3__6122" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 600.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
@@ -6862,6 +6910,7 @@ surface_material_override/0 = ExtResource("12_vhgo0")
 shape = SubResource("ConvexPolygonShape3D_s041g")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_NapkinHolder_01A___4__6124" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 600.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
@@ -6882,6 +6931,7 @@ surface_material_override/0 = ExtResource("12_vhgo0")
 shape = SubResource("ConvexPolygonShape3D_qebyo")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_NapkinHolder_01A___5__6126" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 600.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
@@ -6902,6 +6952,7 @@ surface_material_override/0 = ExtResource("12_vhgo0")
 shape = SubResource("ConvexPolygonShape3D_10qcn")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_NapkinHolder_01A___6__6128" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 600.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
@@ -6922,6 +6973,7 @@ surface_material_override/0 = ExtResource("12_vhgo0")
 shape = SubResource("ConvexPolygonShape3D_asksk")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_NapkinHolder_01A___7__6130" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 600.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
@@ -6942,6 +6994,7 @@ surface_material_override/0 = ExtResource("12_vhgo0")
 shape = SubResource("ConvexPolygonShape3D_ldeyw")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_NapkinHolder_01A___8__6132" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 600.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
@@ -6962,6 +7015,7 @@ surface_material_override/0 = ExtResource("12_vhgo0")
 shape = SubResource("ConvexPolygonShape3D_n4jel")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_NapkinHolder_01A___9__6134" instance=ExtResource("9_csk3v")]
+impulse_force_ceiling_for_prop_impact_play = 600.0
 prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
@@ -7075,7 +7129,8 @@ shape = SubResource("ConvexPolygonShape3D_dm7xl")
 shape = SubResource("ConvexPolygonShape3D_kts3d")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Table_01_6490" instance=ExtResource("9_csk3v")]
-prop_sounds = Array[AudioStreamWAV]([ExtResource("10_sjthe"), ExtResource("11_5kyys"), ExtResource("12_8iosx")])
+impulse_force_ceiling_for_prop_impact_play = 2750.0
+prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
 [node name="Bistro_Research_Exterior_Paris_Table_01__6492" type="RigidBody3D" parent="."]
@@ -7182,7 +7237,8 @@ shape = SubResource("ConvexPolygonShape3D_41w4x")
 shape = SubResource("ConvexPolygonShape3D_jn3i7")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Table_01__6492" instance=ExtResource("9_csk3v")]
-prop_sounds = Array[AudioStreamWAV]([ExtResource("10_sjthe"), ExtResource("11_5kyys"), ExtResource("12_8iosx")])
+impulse_force_ceiling_for_prop_impact_play = 2750.0
+prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
 [node name="Bistro_Research_Exterior_Paris_Table_01___10__6494" type="RigidBody3D" parent="."]
@@ -7295,7 +7351,8 @@ shape = SubResource("ConvexPolygonShape3D_1h3ja")
 shape = SubResource("ConvexPolygonShape3D_ptyjb")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Table_01___10__6494" instance=ExtResource("9_csk3v")]
-prop_sounds = Array[AudioStreamWAV]([ExtResource("10_sjthe"), ExtResource("11_5kyys"), ExtResource("12_8iosx")])
+impulse_force_ceiling_for_prop_impact_play = 2750.0
+prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
 [node name="Bistro_Research_Exterior_Paris_Table_01___2__6496" type="RigidBody3D" parent="."]
@@ -7402,7 +7459,8 @@ shape = SubResource("ConvexPolygonShape3D_xkg6k")
 shape = SubResource("ConvexPolygonShape3D_7xugg")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Table_01___2__6496" instance=ExtResource("9_csk3v")]
-prop_sounds = Array[AudioStreamWAV]([ExtResource("10_sjthe"), ExtResource("11_5kyys"), ExtResource("12_8iosx")])
+impulse_force_ceiling_for_prop_impact_play = 2750.0
+prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
 [node name="Bistro_Research_Exterior_Paris_Table_01___3__6498" type="RigidBody3D" parent="."]
@@ -7485,7 +7543,8 @@ shape = SubResource("ConvexPolygonShape3D_qd13x")
 shape = SubResource("ConvexPolygonShape3D_2hgjx")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Table_01___3__6498" instance=ExtResource("9_csk3v")]
-prop_sounds = Array[AudioStreamWAV]([ExtResource("10_sjthe"), ExtResource("11_5kyys"), ExtResource("12_8iosx")])
+impulse_force_ceiling_for_prop_impact_play = 2750.0
+prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
 [node name="Bistro_Research_Exterior_Paris_Table_01___4__6500" type="RigidBody3D" parent="."]
@@ -7568,7 +7627,8 @@ shape = SubResource("ConvexPolygonShape3D_2qfa5")
 shape = SubResource("ConvexPolygonShape3D_ex5w6")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Table_01___4__6500" instance=ExtResource("9_csk3v")]
-prop_sounds = Array[AudioStreamWAV]([ExtResource("10_sjthe"), ExtResource("11_5kyys"), ExtResource("12_8iosx")])
+impulse_force_ceiling_for_prop_impact_play = 2750.0
+prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
 [node name="Bistro_Research_Exterior_Paris_Table_01___5__6502" type="RigidBody3D" parent="."]
@@ -7648,7 +7708,8 @@ shape = SubResource("ConvexPolygonShape3D_blk2e")
 shape = SubResource("ConvexPolygonShape3D_n3c51")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Table_01___5__6502" instance=ExtResource("9_csk3v")]
-prop_sounds = Array[AudioStreamWAV]([ExtResource("10_sjthe"), ExtResource("11_5kyys"), ExtResource("12_8iosx")])
+impulse_force_ceiling_for_prop_impact_play = 2750.0
+prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
 [node name="Bistro_Research_Exterior_Paris_Table_01___6__6504" type="RigidBody3D" parent="."]
@@ -7734,7 +7795,8 @@ shape = SubResource("ConvexPolygonShape3D_72e1e")
 shape = SubResource("ConvexPolygonShape3D_wcoq2")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Table_01___6__6504" instance=ExtResource("9_csk3v")]
-prop_sounds = Array[AudioStreamWAV]([ExtResource("10_sjthe"), ExtResource("11_5kyys"), ExtResource("12_8iosx")])
+impulse_force_ceiling_for_prop_impact_play = 2750.0
+prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
 [node name="Bistro_Research_Exterior_Paris_Table_01___7__6506" type="RigidBody3D" parent="."]
@@ -7841,7 +7903,8 @@ shape = SubResource("ConvexPolygonShape3D_ruqo3")
 shape = SubResource("ConvexPolygonShape3D_7ad4x")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Table_01___7__6506" instance=ExtResource("9_csk3v")]
-prop_sounds = Array[AudioStreamWAV]([ExtResource("10_sjthe"), ExtResource("11_5kyys"), ExtResource("12_8iosx")])
+impulse_force_ceiling_for_prop_impact_play = 2750.0
+prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
 [node name="Bistro_Research_Exterior_Paris_Table_01___8__6508" type="RigidBody3D" parent="."]
@@ -7948,7 +8011,8 @@ shape = SubResource("ConvexPolygonShape3D_7hxj1")
 shape = SubResource("ConvexPolygonShape3D_n2y1i")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Table_01___8__6508" instance=ExtResource("9_csk3v")]
-prop_sounds = Array[AudioStreamWAV]([ExtResource("10_sjthe"), ExtResource("11_5kyys"), ExtResource("12_8iosx")])
+impulse_force_ceiling_for_prop_impact_play = 2750.0
+prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
 
 [node name="Bistro_Research_Exterior_Paris_Table_01___9__6510" type="RigidBody3D" parent="."]
@@ -8055,5 +8119,6 @@ shape = SubResource("ConvexPolygonShape3D_clxdi")
 shape = SubResource("ConvexPolygonShape3D_eekdc")
 
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior_Paris_Table_01___9__6510" instance=ExtResource("9_csk3v")]
-prop_sounds = Array[AudioStreamWAV]([ExtResource("10_sjthe"), ExtResource("11_5kyys"), ExtResource("12_8iosx")])
+impulse_force_ceiling_for_prop_impact_play = 2750.0
+prop_sounds = Array[AudioStreamWAV]([ExtResource("95_x75at"), ExtResource("96_kf2mw"), ExtResource("97_f3grp")])
 scrape_sound = ExtResource("13_dt5li")
