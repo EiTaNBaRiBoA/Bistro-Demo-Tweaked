@@ -16,13 +16,13 @@
 [ext_resource type="Material" uid="uid://ubcyckfuisi6" path="res://Materials/Miscellaneous/Paris_LiquorBottle_01_Caps.tres" id="9_wxw4h"]
 [ext_resource type="Material" uid="uid://dn141k7dgev6e" path="res://Materials/Miscellaneous/Paris_LiquorBottle_01_Labels.tres" id="10_53v7k"]
 [ext_resource type="AudioStream" uid="uid://wlfxh2fk3uo4" path="res://Godot-Human-For-Scale/Assets/Audio/Bump1.wav" id="10_sjthe"]
-[ext_resource type="AudioStream" uid="uid://yeqqm73sbpll" path="res://Audio/Prop Sounds/Vehicle/Bump1_Vehicle.wav" id="10_u7as1"]
+[ext_resource type="AudioStream" uid="uid://bgrakbqfu283w" path="res://Audio/Prop Sounds/Metal_Heavy/Bump1_Metal_Heavy.wav" id="10_x75at"]
 [ext_resource type="ArrayMesh" uid="uid://c6gfpl7n13qp0" path="res://Meshes/Section02/BistroProps_Props/BistroProps_Props_Mesh_659.res" id="11_3xh0d"]
 [ext_resource type="AudioStream" uid="uid://d3akgfcnosypu" path="res://Godot-Human-For-Scale/Assets/Audio/Bump2.wav" id="11_5kyys"]
 [ext_resource type="Material" uid="uid://d2w288okcmuqi" path="res://Materials/Miscellaneous/MenuSign_01.tres" id="11_23e8p"]
-[ext_resource type="AudioStream" uid="uid://c1sf07mt88v6k" path="res://Audio/Prop Sounds/Vehicle/Bump2_Vehicle.wav" id="11_kb22a"]
+[ext_resource type="AudioStream" uid="uid://bsxhgwoawadn1" path="res://Audio/Prop Sounds/Metal_Heavy/Bump2_Metal_Heavy.wav" id="11_kf2mw"]
 [ext_resource type="AudioStream" uid="uid://b64ceruixmwxb" path="res://Godot-Human-For-Scale/Assets/Audio/Bump3.wav" id="12_8iosx"]
-[ext_resource type="AudioStream" uid="uid://i1d6gh4guvxc" path="res://Audio/Prop Sounds/Vehicle/Bump3_Vehicle.wav" id="12_dvp1u"]
+[ext_resource type="AudioStream" uid="uid://c3o1b3rff6b7l" path="res://Audio/Prop Sounds/Metal_Heavy/Bump3_Metal_Heavy.wav" id="12_f3grp"]
 [ext_resource type="ArrayMesh" uid="uid://rus1af6ctejo" path="res://Meshes/Section02/BistroProps_Props/BistroProps_Props_Mesh_660.res" id="12_mjfs3"]
 [ext_resource type="Material" uid="uid://cxpd2wlfrdcej" path="res://Materials/Miscellaneous/NapkinHolder.tres" id="12_vhgo0"]
 [ext_resource type="AudioStream" uid="uid://qi7xfi47dn6t" path="res://Audio/Prop Sounds/Wood/Scrape_Wood.wav" id="13_dt5li"]
@@ -3511,7 +3511,7 @@ shape = SubResource("ConvexPolygonShape3D_y6y36")
 [node name="PropAudioPlayer" parent="Bistro_Research_Exterior__lod0_Vespa_3937" instance=ExtResource("9_csk3v")]
 impulse_force_ceiling_for_prop_impact_play = 12000.0
 attenuation_percent_threshold_to_play = 0.4
-prop_sounds = Array[AudioStreamWAV]([ExtResource("10_u7as1"), ExtResource("11_kb22a"), ExtResource("12_dvp1u")])
+prop_sounds = Array[AudioStreamWAV]([ExtResource("10_x75at"), ExtResource("11_kf2mw"), ExtResource("12_f3grp")])
 scrape_sound = ExtResource("13_x75at")
 
 [node name="Bistro_Research_Exterior_Paris_Ashtray_01_mesh_4074" type="RigidBody3D" parent="."]
