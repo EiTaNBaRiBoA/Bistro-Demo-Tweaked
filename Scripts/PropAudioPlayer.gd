@@ -10,6 +10,9 @@ extends Node3D
 
 @export_category("system")
 @export var helper_script: GDScript
+@export var streamer: PackedScene
+
+@onready var streamer_loaded = load(streamer.resource_path)
 
 #set to 99999 to mute prop audio
 const AUDIO_START_TIMEOUT = 0.75
@@ -24,7 +27,6 @@ var scraping_on_cooldown = false
 var audio_lock = true
 
 @onready var parent_with_helper = $"../"
-@onready var phys_sound_player = $"Prop"
 @onready var scrape_sound_player = $"Scrape"
 
 func _ready():
@@ -79,9 +81,9 @@ func recieve_integrate_forces(state):
 	
 	if loud_scale > attenuation_percent_threshold_to_play:
 		on_cooldown = true
-		phys_sound_player.stream = prop_sounds_loaded.pick_random()
-		phys_sound_player.volume_db = lerp(-80.0, 0.0, ease_out_circ(loud_scale))
-		phys_sound_player.play()
+		var phys_sound_player = streamer_loaded.instantiate()
+		add_child(phys_sound_player)
+		phys_sound_player.play_stream(prop_sounds_loaded.pick_random(), lerp(-80.0, 0.0, ease_out_circ(loud_scale)))
 		await get_tree().create_timer(PROP_PLAY_TIMEOUT).timeout
 		on_cooldown = false
 
