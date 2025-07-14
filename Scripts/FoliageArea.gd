@@ -18,10 +18,13 @@ func _ready():
 		collider.reparent(self, true)
 	
 	body_entered.connect(_on_body_entered)
-	body_exited.connect(_on_body_exited)
 
 func _physics_process(delta):
+	var overlapping_bodies = get_overlapping_bodies()
 	for pair in collider_audio_pair:
+		if overlapping_bodies.has(pair["collider"]) == false:
+			_on_body_exited(pair["collider"])
+			continue
 		pair["audio"].global_position = pair["collider"].global_position
 		var atten_speed = ATTENUATION_ADJUST_SPEED * delta
 		var atten_target = set_atten(pair["collider"], pair["audio"], true)
@@ -63,11 +66,7 @@ func _on_body_entered(body):
 			await get_tree().process_frame
 			fade_time -= get_process_delta_time()
 		
-		if overlaps_body(body):
-			# this check sometimes fails because godot doesn't guarantee up to date results
-			# so sometimes you'll get the bug where the foliage noise keeps on playing after you get out of foliage
-			# i'm too tired to fix this, this script is bloated enough as it is
-			# interestingly enough i've run into this bug in other AAA games as well
+		if get_overlapping_bodies().has(body):
 			collider_audio_pair.append({"collider": body, "audio": rustle_sounds})
 		else:
 			var from_vol = set_atten(body, rustle_sounds, true)

@@ -11,9 +11,9 @@ Includes [Godot-Human-For-Scale](https://github.com/Jamsers/Godot-Human-For-Scal
 3. Run the project. (Play button on the upper right corner of Godot's interface)
 
 ## Releases
-Windows: [Bistro-Demo-Tweaked-Windows.zip](https://github.com/Jamsers/Bistro-Demo-Tweaked/releases/download/v1.5/Bistro-Demo-Tweaked-Windows.zip)  
-Mac: [Bistro-Demo-Tweaked-Mac.zip](https://github.com/Jamsers/Bistro-Demo-Tweaked/releases/download/v1.5/Bistro-Demo-Tweaked-Mac.zip)  
-Linux: [Bistro-Demo-Tweaked-Linux.zip](https://github.com/Jamsers/Bistro-Demo-Tweaked/releases/download/v1.5/Bistro-Demo-Tweaked-Linux.zip)
+Windows: [Bistro-Demo-Tweaked-Windows.zip](https://github.com/Jamsers/Bistro-Demo-Tweaked/releases/download/v1.6/Bistro-Demo-Tweaked-Windows.zip)  
+Mac: [Bistro-Demo-Tweaked-Mac.zip](https://github.com/Jamsers/Bistro-Demo-Tweaked/releases/download/v1.6/Bistro-Demo-Tweaked-Mac.zip)  
+Linux: [Bistro-Demo-Tweaked-Linux.zip](https://github.com/Jamsers/Bistro-Demo-Tweaked/releases/download/v1.6/Bistro-Demo-Tweaked-Linux.zip)
 
 To get past the "Apple cannot check it for malicious software" warning on Mac, follow the instructions [here](https://support.apple.com/guide/mac-help/mchleab3a043).
 
@@ -46,4 +46,5 @@ You can turn music on or off in editor.
 ## Credits
 Ported from [Amazon Lumberyard Bistro](https://developer.nvidia.com/orca/amazon-lumberyard-bistro).  
 Original porting work done by [Logan Preshaw](https://github.com/WickedInsignia), original port can be found [here](https://github.com/godotengine/godot/issues/74965).  
+Music by [Aaron James Gutib](https://www.youtube.com/@Anuron01/), ["Bright Bistro"](https://www.youtube.com/watch?v=W8CFKvLtBaI) and ["Blissful Bistro"](https://www.youtube.com/watch?v=N8L46km_EOg).  
 Uses Creative Commons sounds, attributions are [here](https://github.com/Jamsers/Bistro-Demo-Tweaked/blob/main/Audio/ATTRIBUTION).

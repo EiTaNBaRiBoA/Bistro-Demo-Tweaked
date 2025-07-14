@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://qi7xfi47dn6t"
-path="res://.godot/imported/Scrape.wav-a4138a92321c1ea69e90ec687bb653ef.sample"
+path="res://.godot/imported/Scrape_Wood.wav-c0bf4388e1d125bccd88f98c0459a8d7.sample"
 
 [deps]
 
-source_file="res://Audio/Prop Sounds/Placeholder/Scrape.wav"
-dest_files=["res://.godot/imported/Scrape.wav-a4138a92321c1ea69e90ec687bb653ef.sample"]
+source_file="res://Audio/Prop Sounds/Wood/Scrape_Wood.wav"
+dest_files=["res://.godot/imported/Scrape_Wood.wav-c0bf4388e1d125bccd88f98c0459a8d7.sample"]
 
 [params]
 
