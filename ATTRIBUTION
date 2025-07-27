@@ -1,0 +1,190 @@
+ATTRIBUTION
+
+This document details attribution for content within this project.
+
+-------------------------------------------------------------------------------
+
+1. DERIVED WORKS
+
+   "Bistro-Demo-Tweaked" is based on:
+   "Lumberyard Bistro Reference Scene"
+     Source: https://github.com/godotengine/godot/issues/74965
+     Author: Logan Preshaw (https://github.com/WickedInsignia)
+     License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+   
+   "Lumberyard Bistro Reference Scene" is ported from:
+   "Amazon Lumberyard Bistro"
+     Source: https://developer.nvidia.com/orca/amazon-lumberyard-bistro
+     Author: Amazon Lumberyard (https://aws.amazon.com/lumberyard/)
+     License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+
+-------------------------------------------------------------------------------
+
+2. PROJECT CONTENTS
+
+   "Bistro-Demo-Tweaked"
+     Author: John James Gutib (https://github.com/Jamsers)
+     - Code
+         License: MIT (LICENSE-CODE)
+     - Assets
+         License: CC BY 4.0 (LICENSE-ASSETS)
+
+-------------------------------------------------------------------------------
+
+3. MUSIC
+
+   Audio/daymusic.ogg is:
+   "Bright Bistro"
+     Source: https://www.youtube.com/watch?v=W8CFKvLtBaI
+     Author: Aaron James Gutib (https://www.youtube.com/@Anuron01/)
+     License: CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/)
+
+   Audio/nightmusic.ogg is:
+   "Blissful Bistro"
+     Source: https://www.youtube.com/watch?v=N8L46km_EOg
+     Author: Aaron James Gutib (https://www.youtube.com/@Anuron01/)
+     License: CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/)
+
+-------------------------------------------------------------------------------
+
+4. AUDIO
+
+   Audio/day_bg.ogg is:
+   "Ambience-garden daytime"
+     Source: https://freesound.org/people/Eelke/sounds/593637/
+     Author: Eelke Dekker (http://www.eelkedekker.nl/)
+     License: CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/)
+
+   Audio/night_bg.ogg is:
+   "Coronavirus Spring night.mp3"
+     Source: https://freesound.org/people/Aldelri/sounds/511351/
+     Author: Aldelri (https://freesound.org/people/Aldelri/)
+     License: CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)
+
+   Audio/foliage_rustling.wav is adapted from:
+   "Leaves Rustling"
+     Source: https://freesound.org/people/ericnorcross81/sounds/570759/
+     Author: Eric Norcross (https://www.ericnorcross.com/)
+     License: CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)
+
+   Audio/Prop Sounds/Glass/Bump1_Glass.wav is adapted from:
+   "Glass Hits.wav"
+     Source: https://freesound.org/people/yadronoff/sounds/320382/
+     Author: yadronoff (https://freesound.org/people/yadronoff/)
+     License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+
+   Audio/Prop Sounds/Glass/Bump2_Glass.wav is adapted from:
+   "Glass Hits.wav"
+     Source: https://freesound.org/people/yadronoff/sounds/320382/
+     Author: yadronoff (https://freesound.org/people/yadronoff/)
+     License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+
+   Audio/Prop Sounds/Glass/Bump3_Glass.wav is adapted from:
+   "Glass Hits.wav"
+     Source: https://freesound.org/people/yadronoff/sounds/320382/
+     Author: yadronoff (https://freesound.org/people/yadronoff/)
+     License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+
+   Audio/Prop Sounds/Glass/Scrape_Glass.wav is adapted from:
+   "dragged-glass-object.aif"
+     Source: https://freesound.org/people/alienistcog/sounds/124400/
+     Author: Chris Castiglione (https://freesound.org/people/alienistcog/)
+     License: CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)
+
+   Audio/Prop Sounds/Metal_Heavy/Bump1_Metal_Heavy.wav is adapted from:
+   "Metal Sheet Hit"
+     Source: https://freesound.org/people/dmitryleeo/sounds/492177/
+     Author: dmitryleeo (https://freesound.org/people/dmitryleeo/)
+     License: CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)
+
+   Audio/Prop Sounds/Metal_Heavy/Bump2_Metal_Heavy.wav is adapted from:
+   "Metal Sheet Hit"
+     Source: https://freesound.org/people/dmitryleeo/sounds/492177/
+     Author: dmitryleeo (https://freesound.org/people/dmitryleeo/)
+     License: CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)
+
+   Audio/Prop Sounds/Metal_Heavy/Bump3_Metal_Heavy.wav is adapted from:
+   "Metal Sheet Hit"
+     Source: https://freesound.org/people/dmitryleeo/sounds/492177/
+     Author: dmitryleeo (https://freesound.org/people/dmitryleeo/)
+     License: CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)
+
+   Audio/Prop Sounds/Metal_Heavy/Scrape_Metal_Heavy.wav is adapted from:
+   "Rough Metal Scrape Textured"
+     Source: https://freesound.org/people/dslrguide/sounds/321485/
+     Author: dslrguide (https://freesound.org/people/dslrguide/)
+     License: CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)
+
+   Audio/Prop Sounds/Metal_Light/Bump1_Metal_Light.wav is adapted from:
+   "metal bucket hit reverb.WAV"
+     Source: https://freesound.org/people/martian/sounds/528494/
+     Author: Martin Chappell (https://www.sfxmix.com/)
+     License: CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)
+
+   Audio/Prop Sounds/Metal_Light/Bump2_Metal_Light.wav is adapted from:
+   "metal bucket hit reverb.WAV"
+     Source: https://freesound.org/people/martian/sounds/528494/
+     Author: Martin Chappell (https://www.sfxmix.com/)
+     License: CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)
+
+   Audio/Prop Sounds/Metal_Light/Bump3_Metal_Light.wav is adapted from:
+   "metal bucket hit reverb.WAV"
+     Source: https://freesound.org/people/martian/sounds/528494/
+     Author: Martin Chappell (https://www.sfxmix.com/)
+     License: CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)
+
+   Audio/Prop Sounds/Metal_Light/Scrape_Metal_Light.wav is adapted from:
+   "Scraping Metal.wav"
+     Source: https://freesound.org/people/freekit/sounds/691644/
+     Author: freekit (https://freesound.org/people/freekit/)
+     License: CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/)
+
+   Audio/Prop Sounds/Plastic/Bump1_Plastic.wav is adapted from:
+   "Plastic bassin metal bar hit"
+     Source: https://freesound.org/people/Sadiquecat/sounds/801823/
+     Author: Sadiquecat (https://freesound.org/people/Sadiquecat/)
+     License: CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)
+
+   Audio/Prop Sounds/Plastic/Bump2_Plastic.wav is adapted from:
+   "Plastic bassin metal bar hit"
+     Source: https://freesound.org/people/Sadiquecat/sounds/801823/
+     Author: Sadiquecat (https://freesound.org/people/Sadiquecat/)
+     License: CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)
+
+   Audio/Prop Sounds/Plastic/Bump3_Plastic.wav is adapted from:
+   "Plastic bassin metal bar hit"
+     Source: https://freesound.org/people/Sadiquecat/sounds/801823/
+     Author: Sadiquecat (https://freesound.org/people/Sadiquecat/)
+     License: CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)
+
+   Audio/Prop Sounds/Plastic/Scrape_Plastic.wav is adapted from:
+   "Plastic_chair_scraping_over_bricks_1.wav"
+     Source: https://freesound.org/people/Glen_Dorner/sounds/654148/
+     Author: Glen Dorner (https://freesound.org/people/Glen_Dorner/)
+     License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+
+   Audio/Prop Sounds/Wood/Bump1_Wood.wav is adapted from:
+   "Bumping into table ."
+     Source: https://freesound.org/people/Edelhanie/sounds/594660/
+     Author: Edelhanie (https://freesound.org/people/Edelhanie/)
+     License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+
+   Audio/Prop Sounds/Wood/Bump2_Wood.wav is adapted from:
+   "Bumping into table ."
+     Source: https://freesound.org/people/Edelhanie/sounds/594660/
+     Author: Edelhanie (https://freesound.org/people/Edelhanie/)
+     License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+
+   Audio/Prop Sounds/Wood/Bump3_Wood.wav is adapted from:
+   "Bumping into table ."
+     Source: https://freesound.org/people/Edelhanie/sounds/594660/
+     Author: Edelhanie (https://freesound.org/people/Edelhanie/)
+     License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+
+   Audio/Prop Sounds/Wood/Scrape_Wood.wav is adapted from:
+   "Scrape"
+     Source: https://freesound.org/people/Caitlin_100/sounds/398405/
+     Author: Caitlin_100 (https://freesound.org/people/Caitlin_100/)
+     License: CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)
+
+-------------------------------------------------------------------------------

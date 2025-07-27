@@ -1,21 +1,26 @@
 # Bistro-Demo-Tweaked
+
 Bistro demo for [Godot](https://github.com/godotengine/godot) showcasing lighting and high quality assets.
 
-https://github.com/Jamsers/Bistro-Demo-Tweaked/assets/39361911/67493ad0-d19c-40ab-ad07-4014dbd654a5
+![Bistro-Demo-Tweaked](https://github.com/Jamsers/Bistro-Demo-Tweaked/assets/39361911/09c0a406-e942-467e-8ecc-fb2eafc55f4e)
 
 Includes [Godot-Human-For-Scale](https://github.com/Jamsers/Godot-Human-For-Scale) to run around the level, and an interface for changing the time of day, resolution scaling, and quality scaling. Appropriate objects in the level are set to dynamic and are physics enabled, to see the effects of lighting on dynamic objects as well.
 
 ## Usage
-1. Clone or download the Github repository.
-2. Download [Godot 4.4](https://godotengine.org/releases/4.4/) and open the repository folder with Godot.
-3. Run the project. (Play button on the upper right corner of Godot's interface)
 
-## Releases
-Windows: [Bistro-Demo-Tweaked-Windows.zip](https://github.com/Jamsers/Bistro-Demo-Tweaked/releases/download/v1.6/Bistro-Demo-Tweaked-Windows.zip)  
-Mac: [Bistro-Demo-Tweaked-Mac.zip](https://github.com/Jamsers/Bistro-Demo-Tweaked/releases/download/v1.6/Bistro-Demo-Tweaked-Mac.zip)  
-Linux: [Bistro-Demo-Tweaked-Linux.zip](https://github.com/Jamsers/Bistro-Demo-Tweaked/releases/download/v1.6/Bistro-Demo-Tweaked-Linux.zip)
+[![Godot 4.4](https://img.shields.io/badge/Godot-4.4-478cbf?style=for-the-badge&logo=godot-engine&logoColor=white)](https://godotengine.org/releases/4.4/)  
 
-To get past the "Apple cannot check it for malicious software" warning on Mac, follow the instructions [here](https://support.apple.com/guide/mac-help/mchleab3a043).
+1. Clone or download this repository.
+1. Download Godot 4.4 and open the repository folder with Godot 4.4.
+1. To run the project, click the Run Project button, found on the upper right corner of Godot's interface.
+
+When opening the project for the first time, you may notice hundreds of modified `*.res` files in your source control. This is a quirk of the Godot importer and these changes can be safely discarded once project has already been opened once.
+
+## Release
+
+You can download the latest builds for Windows, Mac, and Linux from the releases page.
+
+[![GitHub release](https://img.shields.io/github/v/release/Jamsers/Bistro-Demo-Tweaked?style=for-the-badge)](https://github.com/Jamsers/Bistro-Demo-Tweaked/releases/latest)
 
 ## Controls
 | Action | Mouse/Keyboard |  Controller (Xbox) |
@@ -31,20 +36,34 @@ To get past the "Apple cannot check it for malicious software" warning on Mac, f
 | **Switch third person/first person** | V | BACK |
 | **Zoom/focus** (Toggle) | Right Click | Left Trigger |
 
-## *.res Files Reimported
-When opening the project for the first time, you may notice hundreds of *.res files get modified in your source control. This is a quirk of the Godot importer and these changes can be safely discarded once project has already been opened once.
+## Options
+* Use the Light Change Utility node to change lighting scenarios in the editor.  
+* Includes a profiler to see performance details. [RAM counter not available in release builds](https://docs.godotengine.org/en/stable/classes/class_performance.html#enumerations).  
+* You can turn music on or off in the editor.
 
-## Extra Options
-Use the Light Change Utility node to change lighting scenarios in editor.  
-Includes a profiler to see performance details. [RAM counter not available in release builds](https://docs.godotengine.org/en/stable/classes/class_performance.html#enumerations).  
-You can turn music on or off in editor.
+![Light Change Utility](https://github.com/Jamsers/Bistro-Demo-Tweaked/assets/39361911/09c0a406-e942-467e-8ecc-fb2eafc55f4e)
 
-![lightchangeutility](https://github.com/Jamsers/Bistro-Demo-Tweaked/assets/39361911/09c0a406-e942-467e-8ecc-fb2eafc55f4e)
+![UI Toggles](https://github.com/Jamsers/Bistro-Demo-Tweaked/assets/39361911/6d39b553-558b-4a63-8551-5e76681a9e90)
 
-![ui](https://github.com/Jamsers/Bistro-Demo-Tweaked/assets/39361911/6d39b553-558b-4a63-8551-5e76681a9e90)
+## License
+
+Unless  stated otherwise within the [**`ATTRIBUTION`**](ATTRIBUTION) file or directly alongside specific files/folders, the following licenses apply:
+
+**Code:** Licensed under the MIT license.  
+[![MIT license](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE-CODE)
+
+**Assets:** Licensed under the CC BY 4.0 license.  
+[![CC BY 4.0 license](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg?style=for-the-badge)](LICENSE-ASSETS)
+
+Please refer to the respective license files for full details.
 
 ## Credits
-Ported from [Amazon Lumberyard Bistro](https://developer.nvidia.com/orca/amazon-lumberyard-bistro).  
-Original porting work done by [Logan Preshaw](https://github.com/WickedInsignia), original port can be found [here](https://github.com/godotengine/godot/issues/74965).  
-Music by [Aaron James Gutib](https://www.youtube.com/@Anuron01/), ["Bright Bistro"](https://www.youtube.com/watch?v=W8CFKvLtBaI) and ["Blissful Bistro"](https://www.youtube.com/watch?v=N8L46km_EOg).  
-Uses Creative Commons sounds, attributions are [here](https://github.com/Jamsers/Bistro-Demo-Tweaked/blob/main/Audio/ATTRIBUTION).
+
+Developed by [John James Gutib](https://github.com/Jamsers).
+
+Based on [Lumberyard Bistro Reference Scene](https://github.com/godotengine/godot/issues/74965) by [Logan Preshaw](https://github.com/WickedInsignia).  
+Lumberyard Bistro Reference Scene is [Amazon Lumberyard Bistro](https://developer.nvidia.com/orca/amazon-lumberyard-bistro), by [Amazon Lumberyard](https://aws.amazon.com/lumberyard/), ported to Godot by Logan Preshaw.  
+
+Music is [Bright Bistro](https://www.youtube.com/watch?v=W8CFKvLtBaI) and [Blissful Bistro](https://www.youtube.com/watch?v=N8L46km_EOg), by [Aaron James Gutib](https://www.youtube.com/@Anuron01/).    
+
+Please refer to the [**`ATTRIBUTION`**](ATTRIBUTION) file for full details.
