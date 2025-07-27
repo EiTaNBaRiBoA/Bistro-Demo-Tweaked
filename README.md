@@ -2,7 +2,7 @@
 
 Bistro demo for [Godot](https://github.com/godotengine/godot) showcasing lighting and high quality assets.
 
-![Bistro-Demo-Tweaked](https://github.com/Jamsers/Bistro-Demo-Tweaked/assets/39361911/09c0a406-e942-467e-8ecc-fb2eafc55f4e)
+![Bistro-Demo-Tweaked](https://github.com/user-attachments/assets/4661ad1d-b9a3-406d-ad69-18c267251f66)
 
 Includes [Godot-Human-For-Scale](https://github.com/Jamsers/Godot-Human-For-Scale) to run around the level, and an interface for changing the time of day, resolution scaling, and quality scaling. Appropriate objects in the level are set to dynamic and are physics enabled, to see the effects of lighting on dynamic objects as well.
 
