@@ -18,15 +18,17 @@ Built in Godot 4.4. Written in GDScript. 3D models edited with Blender. Audio ed
 1. Download [Godot 4.4](https://godotengine.org/releases/4.4/) and open the repository folder with Godot.
 1. To run the project, click the Run Project button, found on the upper right corner of Godot's interface.
 
-When opening the project for the first time, you may notice hundreds of modified `*.res` files in your source control. This is a quirk of the Godot importer and these changes can be safely discarded once project has already been opened once.
+> [!NOTE]  
+> When opening the project for the first time, you may notice hundreds of modified `*.res` files in your source control. This is a quirk of the Godot importer and these changes can be safely discarded once project has already been opened once.
 
-## Release
+## Releases
 
 You can download builds for Windows, Mac, and Linux from the releases page.
 
-[![GitHub release](https://img.shields.io/github/v/release/Jamsers/Bistro-Demo-Tweaked?style=for-the-badge)](https://github.com/Jamsers/Bistro-Demo-Tweaked/releases/latest)
+[![Bistro-Demo-Tweaked GitHub release](https://img.shields.io/github/v/release/Jamsers/Bistro-Demo-Tweaked?style=for-the-badge)](https://github.com/Jamsers/Bistro-Demo-Tweaked/releases/latest)
 
 ## Controls
+
 | Action | Mouse/Keyboard |  Controller (Xbox) |
 | - | :-: | :-: |
 | **Capture/uncapture mouse** | ESCAPE | START |
@@ -41,9 +43,11 @@ You can download builds for Windows, Mac, and Linux from the releases page.
 | **Zoom/focus** (Toggle) | Right Click | Left Trigger |
 
 ## Editor Options
+
 * Use the Light Change Utility node to change lighting scenarios in the editor.  
 
     ![Light Change Utility](https://github.com/Jamsers/Bistro-Demo-Tweaked/assets/39361911/09c0a406-e942-467e-8ecc-fb2eafc55f4e)
+  
 * Includes a profiler to see performance details. [RAM counter not available in release builds](https://docs.godotengine.org/en/stable/classes/class_performance.html#enumerations).  
     You can turn music on or off in the editor.  
 
