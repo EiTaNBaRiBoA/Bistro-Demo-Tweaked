@@ -1,22 +1,18 @@
 # Bistro-Demo-Tweaked
 
-Bistro demo for [Godot](https://github.com/godotengine/godot) showcasing lighting and high quality assets.
+Bistro demo project for [Godot](https://github.com/godotengine/godot) showcasing lighting and high quality assets.
 
 ![Bistro-Demo-Tweaked](https://github.com/user-attachments/assets/4661ad1d-b9a3-406d-ad69-18c267251f66)
 
 Includes [Godot-Human-For-Scale](https://github.com/Jamsers/Godot-Human-For-Scale) to run around the level, and an interface for changing the time of day, resolution scaling, and quality scaling. Appropriate objects in the level are set to dynamic and are physics enabled, to see the effects of lighting on dynamic objects as well.
-
-## Development Environment
-
-Built in Godot 4.4. Written in GDScript. 3D models edited with Blender. Audio edited with Audacity.
-
-[![Godot 4.4](https://img.shields.io/badge/Godot-4.4-478cbf?style=for-the-badge&logo=godot-engine&logoColor=white)](https://godotengine.org/releases/4.4/) [![GDScript](https://img.shields.io/badge/GDScript-478cbf?style=for-the-badge&logo=godot-engine&logoColor=white)](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html) [![Blender](https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white)](https://www.blender.org/) [![Audacity](https://img.shields.io/badge/Audacity-0000CC?style=for-the-badge&logo=audacity&logoColor=white)](https://www.audacityteam.org/)
 
 ## Usage
 
 1. Clone or download this repository.
 1. Download [Godot 4.4](https://godotengine.org/releases/4.4/) and open the repository folder with Godot.
 1. To run the project, click the Run Project button, found on the upper right corner of Godot's interface.
+
+[![Godot 4.4](https://img.shields.io/badge/Godot-4.4-478cbf?style=for-the-badge&logo=godot-engine&logoColor=white)](https://godotengine.org/releases/4.4/)
 
 > [!NOTE]  
 > When opening the project for the first time, you may notice hundreds of modified `*.res` files in your source control. This is a quirk of the Godot importer and these changes can be safely discarded once project has already been opened once.
